@@ -1,0 +1,17 @@
+# Usage:
+# 1. copy this file to the home dicrectory(~/), then rename it to .gitconfig.
+# 2. append above contents to the .git/config file of the target project.
+
+[user]
+	name = Julian
+	email = 1042029354@qq.com
+[color]
+	ui = true
+[alias]
+    co = checkout
+    ci = commit
+    br = branch
+    st = status
+    last = log -1
+    unstage = reset HEAD
+    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit 
